@@ -1,0 +1,70 @@
++-------------------+
+|  GIT CMD commands |
++-------------------+
+
+Get to the project location (folder) and type: 
+********
+git init
+********
+
+
+If you add a sub-folder or a file you will need to declare it for Git:
+********************************
+git add your-file-name.extension
+********************************
+
+
+If you want to find out if there are any updates in your project:
+**********
+git status
+**********
+
+
+Once you do the changes on your file:
+**********
+git commit
+**********
+this will result into:
+	# Please enter the commit message for your changes. Lines starting
+	# with '#' will be ignored, and an empty message aborts the commit.
+	# On branch master
+	#
+	# Initial commit
+	# 
+	# Changes to be committed:
+	#       new file: read-me.txt
+	#
+press 'i' which will put you in the -- INSERT -- mode and 
+type above the printed text with '#' signs:
+**************
+initial commit
+**************
+followed by 'Esc' and typing: ':wq' into the prompted box
+
+
+Find out the history:
+*******
+git log
+*******
+
+
+At this point, I added 'index.html' file to 'learning-GIT' folder and the text 
+that I am writing at the moment is another change to be commited.
+Let's stage everything at ones with:
+*********
+git add .
+*********
+
+
+If you want to stop tracking the file but keep it in repository:
+****************************
+git rm --cached filename.ext
+****************************
+
+
+If you want to remove the file from repository:
+***********************
+git remove filename.ext
+***********************
+
+
