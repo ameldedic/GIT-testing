@@ -1,6 +1,6 @@
-+-------------------+
-|  GIT CMD commands |
-+-------------------+
++---------------+
+|  GIT commands |
++---------------+
 
 Get to the project location (folder) and type: 
 ********
@@ -14,17 +14,17 @@ git add your-file-name.extension
 ********************************
 
 
-If you want to find out if there are any updates in your project:
+Find out if there are any updates in your project:
 **********
 git status
 **********
 
 
-Once you do the changes on your file:
+Once you do the changes in your file:
 **********
 git commit
 **********
-this will result into:
+this will result:
 	# Please enter the commit message for your changes. Lines starting
 	# with '#' will be ignored, and an empty message aborts the commit.
 	# On branch master
@@ -49,7 +49,7 @@ git log
 
 
 At this point, I added 'index.html' file to 'learning-GIT' folder and the text 
-that I am writing at the moment is another change to be commited.
+that I am writing at the moment in this file is another change to be commited.
 Let's stage everything at ones with:
 *********
 git add .
